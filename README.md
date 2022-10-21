@@ -13,10 +13,10 @@ A React App to try out **Zipy SDK**
 ```bash
 npm install
 ```
-3. Add the following in the <head> tag of index.html file in public folder with your project's api key found in project settings of your **Zipy** account.
+3. Add the following in the <head> tag of index.html file in public folder with your Project SDK key found in project settings of your **Zipy** account.
   
   ```bash
-  <script src="https://cdn.zipy.ai/sdk/v1.0/zipy.min.umd.js" crossorigin="anonymous"></script> <script> window.zipy && window.zipy.init('API_KEY');</script>
+  <script src="https://cdn.zipy.ai/sdk/v1.0/zipy.min.umd.js" crossorigin="anonymous"></script> <script> window.zipy && window.zipy.init('PROJECT_SDK_KEY');</script>
   ```
   
 4. Run the command
